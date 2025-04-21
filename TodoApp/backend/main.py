@@ -17,7 +17,7 @@ models.Base.metadata.create_all(bind=database.engine)
 app = FastAPI()
 
 origins = [
-    "https://appdev-pit4.onrender.com",
+    "https://pit-4-appdev.onrender.com",
     "http://localhost:5173",
 ]
 
